@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AJAX Examples</title>
+  </head>
+  <body>
+    <header>
+      <h1>AJAX Examples</h1>
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+    <h1>Pokemon info</h1>
+    <p id="pokeInfo"></p>
+
+    <button id="pokeButton">Get Pokemon!</button>
+
+    <!-- use <form> .submit() event instead of click </form> -->
+    <form id="pokeSearchForm">
+      <label for="pokemonId">Choose a Pokemon ID</label>
+      <input type="number" id="pokemonId" placeholder="77" />
+      <br />
+      <button>Search</button>
+    </form>
+    <footer>
+      <p>Made with 🐟 at Ironhack.</p>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="./js/get.js"></script>
+  </body>
+</html>
